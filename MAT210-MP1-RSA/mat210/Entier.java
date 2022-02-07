@@ -153,9 +153,9 @@ public class Entier {
     	for (int i = 0; i < nbZero; i++) {
 			ajoutZero.decimales.add(ZERO);
 		}
-    	/*for(int j=0;j <this.longueur();j++){
+    	for(int j=0;j <this.longueur();j++){
             ajoutZero.decimales.add(this.getDecimale(j));
-        }*/
+        }
     	return ajoutZero;
     }
 
